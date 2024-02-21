@@ -1,0 +1,27 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap");
+
+:root {
+  --primary-color: #ffca42;
+  --primary-dark: #ffaf3e;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --grey-color: #9ca3af;
+  --lightgrey-color: #f1f3f4;
+  --red-color: red;
+  --offwhite-color: #faf9f9;
+  --orange-color: #fed7aa;
+  --green-color: #bbf7d0;
+  --light-red-color: #fecaca;
+  --indigo-color: #c7d2fe;
+  --yellow-color: #fef08a;
+  --purple-color: #e9d5ff;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(0.125rem);
+  transform: translateY(0.125rem);
+}
